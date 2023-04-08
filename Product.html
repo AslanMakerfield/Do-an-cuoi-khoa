@@ -184,7 +184,7 @@
     <!-- Productshop -->
     <div class="product-detail">
         <div class="product-detail__avatar">
-            <img src="./img/ao1.jpeg" alt="">
+            <img src="./img/ao1.jpeg" id="mainImage" alt="">
         </div>
         <div class="product-detail__summary">
             <div class="summary__title">
@@ -199,17 +199,14 @@
                     <span class="name-text">Black</span>
                 </div>
                 <div class="item__custom">
-                    <label for="custom-ao1">
-                        <img src="/img/ao1.jpeg" alt="">
-                        <input type="radio" name="item" id="custom-ao1">
+                    <label for="">
+                        <img src="/img/ao1.jpeg" onclick="changeImage('ao1')" id="ao1" alt="">
                     </label>
-                    <label for="custom-aoxanh1">
-                        <img src="/img/aoxanh1.jpeg" alt="">
-                        <input type="radio" name="item" id="custom-aoxanh1">
+                    <label for="">
+                        <img src="/img/aoxanh1.jpeg" onclick="changeImage('aoxanh1')" id="aoxanh1" alt="">
                     </label>
-                    <label for="custom-aotrang1">
-                        <img src="/img/aotrang1.jpeg" alt="">
-                        <input type="radio" name="item" id="custom-aotrang1">
+                    <label for="">
+                        <img src="/img/aotrang1.jpeg" onclick="changeImage('aotrang1')" id="aotrang1" alt="">
                     </label>
                 </div>
 
@@ -259,7 +256,7 @@
                         Thêm vào giỏ
                     </button>
                     <a href="#">
-                        <img class="size18px" src="./img/product-detail/heart.jpg" alt="">
+                        <img class="sizelike" src="./img/product-detail/heart.jpg" alt="">
                     </a>
                 </div>   
 
@@ -432,7 +429,7 @@
                 <p class="p3"><a href="#">842 Sư Vạn Hạnh, Phường 12, Quận 10, HCM</a></p>
                 <p class="p3"><a href="#">The New Playground, 04, Quận 1, HCM</a></p>
                 <p class="p3"><a href="#">54, Mậu Thân, Phường Xuân Khánh, Quận Ninh Kiều, Cần Thơ</a></p>
-                <ul>
+                <ul class="ul-product">
                     <li>
                         <a href="#">
                             <img src="./img/footer/ic-fb.svg" alt="">
@@ -458,5 +455,6 @@
         </div>
     </footer>
     <script src="./assets/js/amountbykhanh.js"></script>
+    <script src="./assets/js/itemcustombykhanh.js"></script>
 </body>
 </html>
