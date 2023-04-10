@@ -5,11 +5,7 @@ function isLogged() {
     return true;
 }
 
-function handleLogin(email, password) {
-    let flag = false;
-    for(let i = 0; i < user.leght; i++) {
-        
-    }
+function handleLogin(username, password) {
     // kiểm tra cặp thông tin username + password có đồng thời tồn tại trong danh sách users hiện tại hay không, nếu có trả về true, nếu không thì trả về false.
     // nếu kết quả là true, thì lưu thông tin username + password vào localstorage
     // Gợi ý: key: token; value: [username] + [password]

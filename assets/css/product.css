@@ -57,9 +57,14 @@
 }
 
 .size-audio {
+    cursor: pointer;
     padding: 5px 10px;
-    opacity: 0.7;
+    opacity: 0.3;
     border: 1px solid;
+}
+
+.size-audio.highlight {
+    opacity: 1;
 }
 
 .item-quantity {
@@ -100,19 +105,16 @@
     cursor: pointer;
 }
 
-.intro .text {
+.intro-text {
     display: none;
+    color: gray;
 }
 
 .price1 {
     border-bottom: 0.8px solid;
 }
 
-.price2 {
-    border-bottom: 0.8px solid;
-}
-
-.price3 a {
+.price2 a {
     color: black;
 }
 
